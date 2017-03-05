@@ -1,0 +1,82 @@
+
+html, body {
+	margin: 10px;
+	padding: 10px;
+}
+
+div {
+	width: 300px;
+	height: 100px;
+	border: 10px solid black;
+}
+
+.low {
+	top: 50px;
+	position: relative;
+	background-color: white;
+}
+
+.low::before {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	background-color: red;
+	height: 100px;
+	width: 100px;
+}
+
+.low::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 25px;
+	left: 300px;
+	background-color: black;
+	height: 50px;
+	width: 25px;
+}
+
+.medium {
+	position: relative;
+	top: 100px;
+	background-color: #ffffee;
+}
+
+.medium::before {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	background-color: orange;
+	height: 100px;
+	width: 180px;
+}
+
+.medium::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 25px;
+	left: 300px;
+	background-color: black;
+	height: 50px;
+	width: 25px;
+}
+
+.high {
+	position: relative;
+	top: 150px;
+	background-color: green;
+}
+
+.high::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 25px;
+	left: 300px;
+	background-color: black;
+	height: 50px;
+	width: 25px;
+}

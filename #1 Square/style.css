@@ -1,0 +1,29 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+.outer-block {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 250px;
+	height: 250px;
+	margin-top: -125px;
+	margin-left: -125px;
+	background-color: #ff9900;
+}
+
+.inner-block {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100px;
+	height: 100px;
+	margin-top: -50px;
+	margin-left: -50px;
+	background-color: #1f26ff;
+	border-radius: 50%;
+}
