@@ -1,0 +1,36 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-spacing: 7px;
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.win td {
+    border-radius: 5px;
+}
+
+.game-table {
+    margin: 50px auto 0;
+}
+
+#game-board {
+    font: bold 38px sans-serif;
+}
+
+#game-board td {
+    height: 63px;
+}
+
+
